@@ -6,14 +6,14 @@
 - шрифти (sans / serif),
 - порядок секцій (Hero, Features, Contact).
 
-## 🚀 Вимоги
+## Вимоги
 - Python **3.7+**
 - Жодних зовнішніх бібліотек, лише стандартна бібліотека.
 
-## 📦 Встановлення
+## Встановлення
 Клонувати репозиторій:
 ```bash
-https://github.com/va1holl/site_generate
+https://github.com/va1holl/test
 cd static-site-gen
 
 # Запуск
