@@ -7,33 +7,55 @@
               <link rel="stylesheet" href="styles.css">
             </head>
             <body>
-              <header><div class="container"><span class="brand">StaticGen</span></div></header>
+              <header><div class="container"><h1 class="brand">StaticGen</h1></div></header>
               
         <section class="container" id="contact">
           <h2>Contact</h2>
           <form>
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" rows="4" placeholder="Message"></textarea>
+            <input type="text" name="name" placeholder="Your name" required><input type="email" name="email" placeholder="Email" required><textarea name="message" rows="4" placeholder="Message"></textarea>
             <button class="btn" type="submit">Send</button>
           </form>
         </section>
         
-<section class="container hero">
-  <h1>Simple Static Site</h1>
-  <p>Generated with Python. New look every run.</p>
-  <a class="btn" href="#contact">Get in touch</a>
-</section>
-
+    <section class="container hero">
+    <h1>Simple Static Site</h1>
+    <a class="btn" href="#contact">Get in touch</a><p>Generated with Python. New look every run.</p>
+    
+    <section class="container" id="pricing">
+        <h2>Pricing</h2>
+        <div class="grid pricing">
+            <div class="card"><h3>Team</h3><p>Up to 10 users</p><p class="price">$29</p></div><div class="card"><h3>Free</h3><p>Basic features</p><p class="price">$0</p></div><div class="card highlight"><h3>Pro</h3><p>Full access</p><p class="price">$9</p></div>
+        </div>
+    </section>
+    
             <section class="container" id="features">
-              <h2>Features</h2>
+            <h2>Features</h2>
               <div class="features">
-                <div class="card"><h3>Fast Setup</h3><p>Spin up a site in seconds.</p></div>
-                <div class="card"><h3>No JS</h3><p>Pure HTML + CSS.</p></div>
-                <div class="card"><h3>Adaptive</h3><p>Looks good on phone and desktop.</p></div>
+                <div class="card"><h3>Adaptive</h3><p>Looks good on phone and desktop.</p></div><div class="card"><h3>No JS</h3><p>Pure HTML + CSS.</p></div><div class="card"><h3>Fast Setup</h3><p>Spin up a site in seconds.</p></div>
               </div>
             </section>
             
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div class="container">
+            <details><summary>Does it support mobile?</summary><p>Absolutely. The layout is responsive by default.</p></details><details><summary>Can I customize the theme?</summary><p>Yes, each build uses a random theme and font combination.</p></details><details><summary>What is StaticGen?</summary><p>It’s a small static site generator that builds randomized layouts.</p></details><details><summary>Can I add my own sections?</summary><p>Sure. Just extend the code in sections.py and hook them in builder.py.</p></details><details><summary>Is the output SEO-friendly?</summary><p>Yes. It generates clean, static HTML pages.</p></details>
+          </div>
+        </section>
+    
+    <section class="container" id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid gallery">
+            <img src="https://picsum.photos/seed/3/400/300"><img src="https://picsum.photos/seed/6/400/300"><img src="https://picsum.photos/seed/7/400/300"><img src="https://picsum.photos/seed/5/400/300"><img src="https://picsum.photos/seed/4/400/300"><img src="https://picsum.photos/seed/1/400/300"><img src="https://picsum.photos/seed/8/400/300"><img src="https://picsum.photos/seed/2/400/300">
+        </div>
+    </section>
+    
+    <section class="container" id="quotes">
+        <h2>Quotes</h2>
+        <div class="grid">
+            <div class="card"><p>"The important thing is to never stop questioning."</p><span>— Albert Einstein</span></div><div class="card"><p>"Science is a way of thinking much more than it is a body of knowledge."</p><span>— Carl Sagan</span></div><div class="card"><p>"Somewhere, something incredible is waiting to be known."</p><span>— Carl Sagan</span></div><div class="card"><p>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</p><span>— Aristotle</span></div><div class="card"><p>"Research is what I’m doing when I don’t know what I’m doing."</p><span>— Wernher von Braun</span></div><div class="card"><p>"Imagination is more important than knowledge."</p><span>— Albert Einstein</span></div>
+        </div>
+    </section>
+    
               <footer><div class="container">&copy; 2025 StaticGen</div></footer>
             </body>
             </html>
